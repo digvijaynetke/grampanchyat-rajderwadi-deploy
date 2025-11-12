@@ -114,7 +114,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-gray-700 pt-8 mt-8 text-center text-gray-400">
-          <p>Copyright © 2025 Vadalibhoi Gram Panchayat. All Rights Reserved</p>
+          <p>Copyright © 2025 Rajderwadi Gram Panchayat. All Rights Reserved</p>
         </div>
       </div>
     </footer>
