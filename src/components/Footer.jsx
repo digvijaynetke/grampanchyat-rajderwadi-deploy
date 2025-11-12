@@ -82,7 +82,7 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition flex items-center gap-2"
                 >
                   <span>✉️</span>
-                  <span>chराजदेरवाडी@gmail.com</span>
+                  <span>chrajderwadi@gmail.com</span>
                 </a>
               </li>
               <li className="text-gray-300">
