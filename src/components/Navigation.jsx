@@ -7,13 +7,13 @@ const Navigation = ({ onOpenComplaint }) => {
     { label: 'होम', link: '#home' },
     { label: 'आमच्याबद्दल', link: '#about' },
     { label: 'न्युज/अपडेट्स', link: '#news' },
-    { label: 'पुरस्कार / यशोगाथा', link: '#awards' },
-    { label: 'पर्यटन स्थळ', link: '#tourism' },
-    { label: 'फोटो गॅलरी', link: '#gallery' },
+    // { label: 'पुरस्कार / यशोगाथा', link: '#awards' },
+    // { label: 'पर्यटन स्थळ', link: '#tourism' },
+    // { label: 'फोटो गॅलरी', link: '#gallery' },
     {
       label: 'इतर',
       submenu: [
-        { label: 'मंदिर', link: '#temple' },
+        // { label: 'मंदिर', link: '#temple' },
         { label: 'आरोग्य दवाखाने', link: '#health' },
         { label: 'शाळा', link: '#school' },
         { label: 'शेती', link: '#agriculture' },
@@ -41,8 +41,10 @@ const Navigation = ({ onOpenComplaint }) => {
 
             </div>
             <div className="text-lg md:text-xl font-bold text-gray-800">
-            उर्धुळ ग्रामपंचायत
-            </div>
+  <span className="text-2xl font-extrabold">राजदेरवाडी ग्रामपंचायत</span>
+  <br />
+  <span className="text-base font-semibold">पंचायत समिती चांदवड, जि.नाशिक</span>
+</div>
           </div>
           
           {/* Mobile menu button */}

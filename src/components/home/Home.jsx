@@ -1,10 +1,9 @@
-import Hero from '../Hero';
+
 import About from '../About';
 import Leadership from '../Leadership';
-import Awards from '../Awards';
+
 import News from '../News';
-import Achievements from '../Achievements';
-import NoticeBoard from '../NoticeBoard';
+
 import { VillageStatisticsComponents } from '../VillageComponents';
 
 const Home = () => {
@@ -12,17 +11,11 @@ const Home = () => {
     <>
     <About />
     <Leadership />
-    
-      <Hero />
-     
-     
-     
-      
-      
+      {/* <Hero /> */}
       <News />
-      <Awards />
-      <Achievements />
-      <NoticeBoard />
+      {/* <Awards /> */}
+      {/* <Achievements /> */}
+    
       <VillageStatisticsComponents language="mr" />
     </>
   );

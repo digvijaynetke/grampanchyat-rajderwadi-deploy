@@ -2,15 +2,14 @@ const Footer = () => {
   const mainMenu = [
     { label: 'होम', link: '#home' },
     { label: 'आमच्याबद्दल', link: '#about' },
-    { label: 'फोटो गॅलरी', link: '#gallery' },
+    // { label: 'फोटो गॅलरी', link: '#gallery' },
     { label: 'ब्लॉग', link: '#blog' },
     { label: 'संपर्क साधा', link: '#contact' },
   ];
 
   const otherMenu = [
-    { label: 'पुरस्कार / यशोगाथा', link: '#awards' },
-    { label: 'पर्यटन स्थळ', link: '#tourism' },
-    { label: 'मंदिर', link: '#temple' },
+    
+    // { label: 'मंदिर', link: '#temple' },
     { label: 'आरोग्य दवाखाने', link: '#health' },
     { label: 'शाळा', link: '#school' },
   ];
@@ -74,7 +73,7 @@ const Footer = () => {
                   className="text-gray-300 hover:text-white transition flex items-center gap-2"
                 >
                   <span>📞</span>
-                  <span>+91 8292939470</span>
+                  <span></span>
                 </a>
               </li>
               <li>
@@ -87,7 +86,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-gray-300">
-                At/Post-उर्धुळ तालुका-चांदवड जिल्हा-नाशिक
+                At/Post-पंचायत समिती चांदवड, जि.नाशिक
               </li>
               <li className="flex gap-4 mt-4">
                 <a href="#" className="hover:text-blue-400 transition" aria-label="Facebook">

@@ -1,7 +1,8 @@
 import PageHero from '../PageHero';
 import About from '../About';
 import Leadership from '../Leadership';
-import gavImage from '../../images/gav.jpg';
+// import gavImage from '../../images/background.jpg background.jpg';
+import gavImage from '../../images/background.jpg';
 
 const AboutPage = () => {
   return (

@@ -1,10 +1,10 @@
-import kakaImage from '../images/kaka.jpg';
+// import kakaImage from '../images/kaka.jpg';
 import sarpanchImage from '../images/sarpanch.jpeg';
 import gavImage from '../images/upsarpanch.jpeg'; 
-import gramadhikariImage from '../images/gramadhikari.png';
-import paniputraImage from '../images/panipurotha_karmachari.png';
-import shipaiImage from '../images/shipaii.png';
-import dummyImage from '../images/dummy.jpeg';
+// import gramadhikariImage from '../images/gramadhikari.png';
+// import paniputraImage from '../images/panipurotha_karmachari.png';
+// import shipaiImage from '../images/shipaii.png';
+// import dummyImage from '../images/dummy.jpeg';
 
 const Leadership = () => {
   // You can replace these with actual images
@@ -14,25 +14,25 @@ const Leadership = () => {
       name: 'सौ.मोहिनी मनोज शिंदे',
       role: 'उपसरपंच',
       village: 'राजदेरवाडी'
-    },
-    {
-      image: dummyImage, // Replace with actual image for ग्राम पंचायत अधिकारी
-      name: '#########',
-      role: 'ग्रामपंचायत अधिकारी',
-      village: 'राजदेरवाडी'
-    },
-    {
-      image: dummyImage, // Replace with actual image for सदस्य
-      name: '',
-      role: 'पाणीपुरवठा कर्मचारी',
-      village: 'राजदेरवाडी'
-    },
-    {
-      image: dummyImage, // Replace with actual image for सदस्य
-      name: '#########',
-      role: 'सदस्य',
-      village: 'राजदेरवाडी'
     }
+    // {
+    //   image: dummyImage, // Replace with actual image for ग्राम पंचायत अधिकारी
+    //   name: '#########',
+    //   role: 'ग्रामपंचायत अधिकारी',
+    //   village: 'राजदेरवाडी'
+    // },
+    // {
+    //   image: dummyImage, // Replace with actual image for सदस्य
+    //   name: '',
+    //   role: 'पाणीपुरवठा कर्मचारी',
+    //   village: 'राजदेरवाडी'
+    // },
+    // {
+    //   image: dummyImage, // Replace with actual image for सदस्य
+    //   name: '#########',
+    //   role: 'सदस्य',
+    //   village: 'राजदेरवाडी'
+    // }
   ];
 
   return (
@@ -41,7 +41,7 @@ const Leadership = () => {
         <div className="max-w-6xl mx-auto">
           {/* Heading with horizontal lines */}
           <div className="flex items-center justify-center mb-8">
-            <div className="flex-1 h-0.5 bg-gradient-to-r from-transparent via-teal-400 to-teal-600"></div>
+            <div className="flex-1 h-2 bg-gradient-to-r from-transparent via-teal-400 to-teal-600"></div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mx-6 tracking-wide">
               नेतृत्व
             </h2>

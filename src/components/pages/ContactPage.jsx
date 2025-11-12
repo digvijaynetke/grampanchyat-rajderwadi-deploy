@@ -1,5 +1,5 @@
 import PageHero from '../PageHero';
-import gavImage from '../../images/gav.jpg';
+import gavImage from '../../images/background.jpg';
 
 const ContactPage = () => {
   return (
@@ -41,7 +41,7 @@ const ContactPage = () => {
                     <div>
                       <h4 className="font-semibold text-gray-800 mb-1">फोन नंबर</h4>
                       <a href="tel:+918292939470" className="text-gray-600 hover:text-teal-600 transition">
-                        +91 8292939470
+                        
                       </a>
                     </div>
                   </div>
