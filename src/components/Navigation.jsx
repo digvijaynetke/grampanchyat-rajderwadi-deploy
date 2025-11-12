@@ -43,7 +43,7 @@ const Navigation = ({ onOpenComplaint }) => {
             <div className="text-lg md:text-xl font-bold text-gray-800">
   <span className="text-2xl font-extrabold">राजदेरवाडी ग्रामपंचायत</span>
   <br />
-  <span className="text-base font-semibold">पंचायत समिती चांदवड, जि.नाशिक</span>
+  <span className="text-base font-semibold">पंचायत समिती चांदवड,तालुका चांदवड, जि.नाशिक</span>
 </div>
           </div>
           
